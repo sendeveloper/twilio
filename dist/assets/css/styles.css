@@ -1,0 +1,29 @@
+body {
+    color: #333;
+}
+
+body, input, button {
+    line-height: 1.4;
+    font: 14px Helvetica,arial,freesans,clean,sans-serif;
+}
+
+a {
+    color: #4183C4;
+    text-decoration: none;
+}
+
+/* Public classes */
+.clear{
+    clear: both;
+}
+.container {
+    width: 30em;
+    margin: 10em auto;
+}
+.email_form, .ticket_form{
+    margin-top: 45px;
+    display: none;
+}
+@media (max-width: 768px){
+    
+}
